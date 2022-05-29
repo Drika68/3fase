@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./CSS/estilo.css">
+    <title>Traveller</title>
+</head>
+<body>
+    <header class="menu">
+        <h1>Traveller</h1>
+        <nav class="menu-top">
+            <ul>
+                <li><a href="./index.html">Ínicio</a></li>
+                <li><a href="./PAGES/hoteis.html">Hotéis</a></li>
+                <li><a href="#">Gastronomia</a></li>
+           </ul>
+        </nav>
+    </header>
+    <section class="inicial">
+      <h2>VENHA CONHECER NOSSAS NOVIDADES</h2>
+      <button class="buton">Começar</button>
+    </section>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+</body>
+</html>
